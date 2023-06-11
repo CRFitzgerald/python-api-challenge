@@ -1,6 +1,6 @@
 # python-api-challenge
 
-In this challenge, I use API requests to pull weather data from websites and parse the resulting JSONs for visualizations using Pandas and PyPlot. Below are the two deliverables:
+In this challenge, I use API requests to pull weather data from websites and parse the resulting JSONs for visualizations using Pandas and PyPlot. The two deliverables - described below - can be found in the WeatherPy folder.
 
 ## WeatherPy
 For the first deliverable, I have created a Python script to visualize the weather of over 500 cities of varying distances from the equator. Through use of the citipy Python library, I was able to find city names associated with iterative lists of coordinate combinations. Using the resulting list of cities, I made the API call to OpenWeatherMap for temperature, humidity, and cloudiness data. I created scatter plots to show the relationship between these cities' latitudes and weather data points retrieved. Then I computed the linear regression of these models and overlaid it on the plots. 
